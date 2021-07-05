@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align:center;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 1px 15px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #808080;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  color: black;
+}
+
+a.le{
+	background-color:#ADD8E6;
+}
+.main {
+  margin-left: 130px; /* Same as the width of the sidenav */
+  margin-top:150px;
+  background-color:#F0F8FF;
+  height: 600px;
+}
+
+div.search{
+	text-align:center;
+}
+div.text{
+	text-align:center;
+}
+
+input{
+	border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 50%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+
+#upload {
+  
+  border: 2px solid white;
+  line-height: 150px;
+  background-color:white;
+  vertical-align: middle;
+  text-align:center;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  margin-left:315px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#"><img src="https://img.icons8.com/ios-filled/100/000000/download-2--v2.png"/></a>
+  <a href="#"><img src="https://img.icons8.com/ios/35/000000/collaborator-male.png"/><br>Studnets</a>
+  <a class="le" href="lesson.html"><img src="https://img.icons8.com/ios/35/000000/book.png"/><br>Lesson Plan</a>
+  <a href="#"><img src="https://img.icons8.com/ios/35/000000/settings--v2.png"/><br>Settings</a>
+</div>
+
+<div class="main">
+  <h2 style="margin-top:20px;"><img src="https://img.icons8.com/ios-filled/20/000000/chevron-left.png"/>Videos</h2>
+  <div class="search">
+	<input type="text" placeholder="Insert URL here " name="search">
+  </div>
+  <div class="text">
+		<h2>or</h2>
+  </div>
+  
+  <p id="upload">Upload</p>
+   
+</body>
+</html> 
+
